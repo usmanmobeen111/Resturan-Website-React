@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import AboutSection from '../components/AboutSection'
 import MenuGrid from '../components/MenuGrid'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutSection/>
       <MenuGrid/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
