@@ -23,7 +23,7 @@ const MenuGrid = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id='menu' className="container mx-auto px-4 py-8 pt-24">
       <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8 text-gray-800">Our <span className='text-primary'>Menu</span></h2>
       <CategoryTabs
         categories={categories}

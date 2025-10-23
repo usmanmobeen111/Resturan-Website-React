@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <section className="bg-light py-20 font-lato">
+    <section id="testimonials" className="bg-light py-20 font-lato">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8 text-gray-800">
           What Our <span className="text-primary">Customers</span> Say
