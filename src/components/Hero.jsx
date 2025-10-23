@@ -59,7 +59,7 @@ const Hero = () => {
       >
         <div className="relative w-72 h-72 md:w-[420px] md:h-[420px] bg-secondary rounded-full flex items-center justify-center overflow-hidden shadow-xl">
           <motion.img
-            src="/hero.png"
+            src="/hero.webp"
             alt="Delicious Dish"
             className="object-contain drop-shadow-2xl"
             initial={{ scale: 0.8, opacity: 0 }}
