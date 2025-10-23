@@ -76,7 +76,7 @@ const Footer = () => {
         {/* Quick Links */}
         <motion.div
           variants={fadeUp(0.2)}
-          className="flex flex-col items-center md:items-start"
+          className="flex flex-col items-start"
         >
           <h2 className="text-xl font-semibold mb-4 text-secondary">Quick Links</h2>
           <ul className="space-y-2">

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="pt-24 bg-light min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 overflow-hidden font-lato"
+      className="pt-24 pb-10 bg-light min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 overflow-hidden font-lato"
     >
       {/* Left Side - Text */}
       <div className="flex-1 space-y-6 text-center md:text-left">
