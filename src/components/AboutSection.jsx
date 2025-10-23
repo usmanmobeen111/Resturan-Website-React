@@ -91,7 +91,7 @@ const AboutSection = () => {
         >
           <div className="relative group overflow-hidden rounded-3xl shadow-xl">
             <img
-              src="/about.jpg"
+              src="/about.webp"
               alt="About Us"
               className="rounded-3xl object-cover w-full h-full max-h-[450px] transform group-hover:scale-105 transition-transform duration-700"
             />
