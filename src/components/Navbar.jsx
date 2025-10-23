@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-dark text-2xl"
+          className="md:hidden text-dark text-2xl relative z-50 cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <HiX /> : <HiMenu />}
@@ -53,7 +53,7 @@ const Navbar = () => {
           initial={{ x: "100%" }}
           animate={{ x: menuOpen ? 0 : "100%" }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="fixed top-0 right-0 w-2/3 h-full bg-light shadow-lg md:hidden flex flex-col items-center justify-center gap-6"
+          className="fixed top-0 right-0 w-2/3 h-screen bg-light shadow-lg md:hidden flex flex-col items-center justify-center gap-6"
         >
           {navLinks.map((link) => (
             <a
